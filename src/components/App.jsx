@@ -1,7 +1,5 @@
-// import data from './data/data.json';
 import React, { Component } from 'react';
 import { GlobalStyle } from "./GlobalStyle";
-import Feedback from "./Feedback";
 import Statistics from "./Statistics";
 import FeedbackOptions from "./FeedbackOptions";
 import Section from './Section';
@@ -67,10 +65,6 @@ class App extends Component {
       <div>
       
         <GlobalStyle />
-
-        <Feedback />
-
-        <p>=======================================</p>
 
         <Section
           title="Please leave feedback">
